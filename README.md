@@ -12,7 +12,7 @@ run and interact with bevy apps from python
 
 ## run the example app (from python)
 
-- `pip install .`
+- `pip install examples/minimal`
 
 ```python
 import bevy_python_minimal
@@ -20,19 +20,7 @@ import bevy_python_minimal
 bevy_python_minimal.main()
 ```
 
-
-## development
-
-- `pip install .`
-- `python ./python/main.py`
-
----or---
-
-- `pip install maturin`
-- `python -m venv .venv`
-- `source .venv/Scripts/activate`
-- `maturin develop`
-- `python ./python/main.py`
+- `python ./examples/minimal/python/main.py`
 
 
 ## compatible bevy versions

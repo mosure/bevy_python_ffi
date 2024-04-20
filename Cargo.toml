@@ -23,13 +23,6 @@ exclude = [
   "credits",
 ]
 
-[toolchain]
-channel = "nightly"
-
-
-[dependencies]
-pyo3 = { version = "0.21", features = ["extension-module"] }
-
 
 [dependencies.bevy]
 version = "0.13"
@@ -56,5 +49,4 @@ codegen-units = 1
 
 [lib]
 name = "bevy_python"
-path = "examples/minimal.rs"
-crate-type = ["cdylib"]
+path = "src/lib.rs"
