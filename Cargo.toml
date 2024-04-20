@@ -1,5 +1,5 @@
 [package]
-name = "bevy_python"
+name = "bevy_python_ffi"
 description = "run and interact with bevy apps from python"
 version = "0.1.0"
 edition = "2021"
