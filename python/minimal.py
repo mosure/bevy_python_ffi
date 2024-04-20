@@ -1,4 +1,4 @@
-import bevy_python
+import bevy_python_minimal
 
 
-bevy_python.main()
+bevy_python_minimal.main()
