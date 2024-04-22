@@ -114,7 +114,7 @@ pub fn upload_image(
     let result = sender.send(payload);
 
     if result.is_err() {
-        return Err(PyValueError::new_err(format!("failed to send image payload: {}", result.err().unwrap().to_string())));
+        return Err(PyValueError::new_err(format!("failed to send image payload: {}", result.err().unwrap())));
     }
 
     Ok(())
