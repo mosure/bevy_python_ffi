@@ -24,9 +24,18 @@ exclude = [
 ]
 
 
+[dependencies]
+once_cell = "1.19"
+pyo3 = { version = "0.21", features = ["extension-module", "macros"] }
+
+
 [dependencies.bevy]
 version = "0.13"
 default-features = false
+features = [
+  "bevy_asset",
+  "bevy_render",
+]
 
 
 [profile.dev.package."*"]
@@ -48,5 +57,5 @@ codegen-units = 1
 
 
 [lib]
-name = "bevy_python"
+name = "bevy_python_ffi"
 path = "src/lib.rs"

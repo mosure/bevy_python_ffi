@@ -23,6 +23,13 @@ bevy_python_minimal.main()
 - `python ./examples/minimal/python/main.py`
 
 
+## development
+
+> depending on environment, you may need to open shell from a python virtual environment to build
+- `python -m venv .venv`
+- `source .venv/Scripts/activate`
+
+
 ## compatible bevy versions
 
 | `bevy_python_ffi` | `bevy` |

@@ -1,5 +1,5 @@
 [package]
-name = "bevy_python_minimal"
+name = "bevy_python_image_upload"
 version = "0.1.0"
 edition = "2021"
 
@@ -15,6 +15,12 @@ bevy_python_ffi = { path = "../../" }
 [dependencies.bevy]
 version = "0.13"
 default-features = false
+features = [
+  "bevy_asset",
+  "bevy_render",
+  "bevy_ui",
+  "bevy_winit",
+]
 
 
 [profile.dev.package."*"]
@@ -37,5 +43,5 @@ codegen-units = 1
 
 
 [lib]
-name = "bevy_python_minimal"
+name = "bevy_python_image_upload"
 path = "src/lib.rs"
