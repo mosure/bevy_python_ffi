@@ -17,7 +17,7 @@ run and interact with bevy apps from python
 ```python
 import bevy_python_minimal
 
-bevy_python_minimal.main()
+bevy_python_minimal.main(False)  # new_thread=False
 ```
 
 - `python ./examples/minimal/python/main.py`
