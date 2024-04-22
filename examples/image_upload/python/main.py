@@ -1,5 +1,3 @@
-import time
-
 import bevy_python_image_upload
 
 
