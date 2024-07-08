@@ -30,7 +30,7 @@ pyo3 = { version = "0.21", features = ["extension-module", "macros"] }
 
 
 [dependencies.bevy]
-version = "0.13"
+version = "0.14"
 default-features = false
 features = [
   "bevy_asset",
